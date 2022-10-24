@@ -56,7 +56,7 @@ let check = document.querySelectorAll(".close")
 check.forEach(uncheck => uncheck.addEventListener("click",
     function () {
         inputBox.checked = false
-        console.log(inputBox.checked)
+        checked = false
     }))
 
 
