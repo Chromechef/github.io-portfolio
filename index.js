@@ -46,17 +46,17 @@ function sendEmail() {
 
 }
 
-let inputBox = document.getElementById("hamburger-checkbox")
+// let inputBox = document.getElementById("hamburger-checkbox")
 
-inputBox.addEventListener("click", function () {
-    inputBox.checked = true
-})
+// inputBox.addEventListener("click", function () {
+//     inputBox.checked = true
+// })
 
-let check = document.querySelectorAll(".close")
-check.forEach(uncheck => uncheck.addEventListener("click",
-    function () {
-        inputBox.checked = false
-        checked = false
-    }))
+// let check = document.querySelectorAll(".close")
+// check.forEach(uncheck => uncheck.addEventListener("click",
+//     function () {
+//         inputBox.checked = false
+//         checked = false
+//     }))
 
 
