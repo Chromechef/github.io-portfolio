@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+}
+
 body {
     font-size: 1.6rem;
     margin: 0;
